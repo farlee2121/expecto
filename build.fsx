@@ -38,6 +38,7 @@ BuildServer.install [
 let libProjects =
   !! "Expecto/*.fsproj"
   ++ "Expecto.FsCheck/*.fsproj"
+  ++ "Expecto.FsCheck3/*.fsproj"
   ++ "Expecto.Diff/*.fsproj"
   ++ "Expecto.BenchmarkDotNet/*.fsproj"
   ++ "Expecto.Hopac/*.fsproj"
@@ -45,6 +46,7 @@ let libProjects =
 let testProjects =
   !! "Expecto.Tests/*.Tests.fsproj"
   ++ "Expecto.Hopac.Tests/*.Tests.fsproj"
+  ++ "Expecto.Tests.FsCheck3/*.Tests.FsCheck3.fsproj"
   ++ "Expecto.Tests.CSharp/*.Tests.CSharp.csproj"
   ++ "Expecto.Focused.Tests/*.Tests.fsproj"
 

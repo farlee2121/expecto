@@ -427,3 +427,9 @@ NUGET
 GITHUB
   remote: eiriktsarpalis/snippets
     SlnTools/SlnTools.fs (aedb8f93437634d70afac26576acb88e3a88050d)
+GROUP FsCheck3
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    FsCheck (3.0.0-beta2)
+      FSharp.Core (>= 4.5) - restriction: >= netstandard2.0
+    FSharp.Core (7.0.200) - restriction: >= netstandard2.0
